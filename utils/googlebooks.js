@@ -11,7 +11,7 @@ module.exports = async (phrase) => {
     return JSON.stringify(results.data);
 }
 
-/*  console.log(results.data);
+console.log(results.data);
     console.log(results.status);
     console.log(results.statusText);
     console.log(results.headers);
@@ -23,4 +23,4 @@ module.exports = async (phrase) => {
             format: 'json',
             q: `${phrase}`,
         },
-    })*/
+ })
